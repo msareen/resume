@@ -1,0 +1,51 @@
+{
+    "name": "Manasvi Sareen",
+    "socialNetworks" : [
+        {
+            "name": "linkedIn",
+            "icon": "",
+            "url": ""
+        }
+    ],
+    "profile": {
+        "pictureUrl": "",
+        "name": "Manasvi Sareen",
+        "description": "Software Architect",
+        "tags": ["react"]
+    },
+    "aboutMe": {
+        "detailDescription": "Who am I"
+    },
+    "professionalSkills" : [
+        {
+            "skillName": "Test",
+            "proficiency": 80
+        }
+    ],
+    "experience": [
+        {
+            "type": "Work",
+            "heading": "Software Architect",
+            "description": "",
+            "tags": ["angular","node"],
+            "date": "2018-Present"
+        },
+        {
+            "type": "Work",
+            "heading": "Software Architect",
+            "description": "",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "Work",
+            "heading": "Software Architect",
+            "description": "",
+            "tags": ["angular","node"]
+        }
+    ],
+    "contactDetails": {
+        "email": "manasvi.sareen@outlook.com",
+        "mobile": "+91 9873579078",
+        "Location": "Banglore"
+    }
+}

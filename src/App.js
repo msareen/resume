@@ -7,15 +7,25 @@ import Profile from './profile/profile';
 import About from './about/About';
 import Skills from './skills/Skills';
 import Experience from './experience/Experience';
-
+import Contact from './contact/Contact';
+import { getResumeData, getResumeDataInitialized } from './services/data.service';
+import React, { useState } from 'react';
 
 function App() {
+  
+  
+  const [resumeData, setResumeData] = useState(getResumeDataInitialized())
+  getResumeData().then((data) => {
+    setResumeData(data);
+  })
+  
+  
   return (
     <div className="background">
       <Container>
         <Row className="mt-4">
           <Col >
-            <h4>Manasvi Sareen</h4>
+            <h4>{resumeData.name}</h4>
           </Col>
           <Col>
             <GrLinkedin className="float-end" style={{ height: "1.5rem", width: "1.5rem" }} />
@@ -45,11 +55,15 @@ function App() {
                 <Experience ></Experience>
               </Col>
             </Row>
+            <Row className="mt-4">
+              <Col>
+                <Contact></Contact>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
     </div>
-
   );
 }
 

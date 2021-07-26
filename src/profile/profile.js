@@ -15,9 +15,9 @@ export default class Profile extends React.Component {
                     <div className="picture-position mt-5">
                         <Figure className="" >
                             <Figure.Image
-                                width={171}
-                                height={170}
-                                alt="171x180"
+                                width={183}
+                                height={171}
+                                alt="171x171"
                                 src={profilePicture}
                             />
                         </Figure>

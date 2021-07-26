@@ -1,16 +1,15 @@
 @import '../resume.scss';
 
 .profile-background {
-    background-color: $info;
+    background-color: $primary;
 }
 
 .picture-position {
     border: 1px solid transparent;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 5px 5px;
     background-color: $light;
     margin-bottom: -2rem;
     box-shadow: $gray-100;
-    pad: 5px;
     z-index: 10;
 }
 
