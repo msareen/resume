@@ -2,9 +2,8 @@
     "name": "Manasvi Sareen",
     "socialNetworks" : [
         {
-            "name": "linkedIn",
-            "icon": "",
-            "url": ""
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/manasvi-sareen-8a566930/"
         }
     ],
     "profile": {
@@ -12,6 +11,7 @@
         "name": "Manasvi Sareen",
         "description": "Software Architect",
         "tags": ["react"]
+        
     },
     "aboutMe": {
         "detailDescription": "Who am I"

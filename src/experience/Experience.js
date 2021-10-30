@@ -5,7 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { MdWork } from 'react-icons/md';
-import '../resume.scss';
+import '../main.scss';
 
 
 
