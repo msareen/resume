@@ -1,5 +1,6 @@
 {
     "name": "Manasvi Sareen",
+    "profileTitle": "Software Architect",
     "socialNetworks" : [
         {
             "type": "linkedIn",
@@ -11,7 +12,6 @@
         "name": "Manasvi Sareen",
         "description": "Software Architect",
         "tags": ["react"]
-        
     },
     "aboutMe": {
         "detailDescription": "Who am I"

@@ -3,7 +3,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
-import profilePicture from '../assets/profile-pic.jpg';
+import profilePicture from '../../assets/profile-pic.jpg';
 
 
 export default class Profile extends React.Component {

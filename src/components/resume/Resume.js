@@ -7,11 +7,19 @@ import About from '../about/About';
 import Skills from '../skills/Skills';
 import Experience from '../experience/Experience';
 import Contact from '../contact/Contact';
-import { getResumeData, getResumeDataInitialized } from '../services/data.service';
-import React, { useState } from 'react';
+import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
+import React, { useEffect, useState } from 'react';
+import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 export default function Resume() {
-
+    const [isVisible, setIsVisible] = useState(false);  
+    
+    useEffect(() => {
+      setTimeout(() => {
+        document.getElementById('resumeMain').classList.remove('hide');
+        setIsVisible(true);  
+      },500);
+    })
 
     const [resumeData, setResumeData] = useState(getResumeDataInitialized())
     getResumeData().then((data) => {
@@ -21,15 +29,13 @@ export default function Resume() {
     /* <GrLinkedin  style={{ height: "1.5rem", width: "1.5rem" }} /> */
   
     function renderIcon() {
-  
       return (
-  
-        <Icon ></Icon>
+          <Icon ></Icon>
       )
     }
   
     return (
-      <div className="background">
+      <motion.div id="resumeMain" className="background hide"  animate={{ opacity: isVisible ? 1 : 0 }}>
         <Container >
           <Row className="mt-4">
             <Col >
@@ -82,6 +88,6 @@ export default function Resume() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </motion.div>
     );
   }

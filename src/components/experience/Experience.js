@@ -5,9 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { MdWork } from 'react-icons/md';
-import '../main.scss';
-
-
+import '../../main.scss';
 
 
 export default class Experience extends React.Component {
