@@ -5,12 +5,28 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from "react-router-dom";
 import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
 
 export default function Welcome() {
     const [isVisible, setIsVisible] = useState(true);
-    let navigate = useNavigate();
+    const [resumeData,setResumeData] = useState({
+        name:'',
+        profileTitle: ''
+    })
+    const navigate = useNavigate();
     
+    useEffect(()=>{
+        getResumeData()
+        .then((data) => {
+            setResumeData({
+                       name: data.name,
+                       profileTitle: data.profileTitle
+                  })
+              },[])
+    }, [])
+    
+
     function naviateToResume(e) {
         e.preventDefault();
         setIsVisible(false);
@@ -25,14 +41,14 @@ export default function Welcome() {
                     <Row className="center">
                         <Col md={5}>
                             <h1 className="typewriter">
-                                Manasvi Sareen!
+                                {resumeData.name}
                             </h1>
                         </Col>
                     </Row>
                     <Row >
                         <Col md={5}>
                             <h3 className="reveal">
-                                Software Developer/Architect
+                                {resumeData.profileTitle}
                             </h3>
                         </Col>
                     </Row>

@@ -5,8 +5,7 @@ import * as resumeData from '../data.json';
 // actual http api call.
 export function getResumeData() {
     let dataPromise = new Promise((resolve) => {
-        let data = resumeData;
-        resolve(data.default);
+        resolve(resumeData.default);
     })
     return dataPromise;
 }
@@ -22,3 +21,5 @@ export function getResumeDataInitialized() {
         'contactDetails': {}
     }
 }
+
+
