@@ -1,7 +1,8 @@
 @import '../../main.scss';
 
 .profile-background {
-    background-color: $primary;
+    background-color: $dull-blue;
+    background-image: url('../../assets/grid.svg');
 }
 
 .picture-position {

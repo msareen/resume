@@ -16,7 +16,7 @@ export default class Skills extends React.Component {
                 <Row className="gx-3">
                     <Col className="p-2">
                         <h6>test</h6>
-                        <ProgressBar animated now={(60)} />
+                        <ProgressBar variant='success' now={(60)} />
                     </Col>
                     <Col className="p-2">
                         <h6>test</h6>

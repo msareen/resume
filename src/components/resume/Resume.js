@@ -27,12 +27,7 @@ export default function Resume() {
     })
   
     /* <GrLinkedin  style={{ height: "1.5rem", width: "1.5rem" }} /> */
-  
-    function renderIcon() {
-      return (
-          <Icon ></Icon>
-      )
-    }
+ 
   
     return (
       <motion.div id="resumeMain" className="background hide"  animate={{ opacity: isVisible ? 1 : 0 }}>
@@ -80,7 +75,7 @@ export default function Resume() {
                   <Experience ></Experience>
                 </Col>
               </Row>
-              <Row className="mt-4">
+              <Row className="mt-4 mb-4">
                 <Col>
                   <Contact></Contact>
                 </Col>
