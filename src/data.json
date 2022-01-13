@@ -8,18 +8,34 @@
         }
     ],
     "profile": {
-        "pictureUrl": "",
+        "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
         "description": "Software Architect",
-        "tags": ["react"]
+        "skillTags": ["angular","react","javascript","html","nodejs"]
     },
     "aboutMe": {
         "detailDescription": "Who am I"
     },
     "professionalSkills" : [
         {
-            "skillName": "Test",
+            "skillName": "Html/CSS",
+            "proficiency": 70
+        },
+        {
+            "skillName": "Javascript",
+            "proficiency": 90
+        },
+        {
+            "skillName": "Nodejs",
+            "proficiency": 90
+        },
+        {
+            "skillName": "Angular",
             "proficiency": 80
+        },
+        {
+            "skillName": "React",
+            "proficiency": 50
         }
     ],
     "experience": [
@@ -27,7 +43,7 @@
             "type": "Work",
             "heading": "Software Architect",
             "description": "",
-            "tags": ["angular","node"],
+            "tags": ["angular","node","graphql"],
             "date": "2018-Present"
         },
         {

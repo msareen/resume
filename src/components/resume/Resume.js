@@ -13,26 +13,26 @@ import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 export default function Resume() {
     const [isVisible, setIsVisible] = useState(false);  
+    const [resumeData, setResumeData] = useState(getResumeDataInitialized())
     
     useEffect(() => {
       setTimeout(() => {
         document.getElementById('resumeMain').classList.remove('hide');
         setIsVisible(true);  
       },500);
+      getResumeData().then((data) => {
+        setResumeData(data);
+      })
     })
-
-    const [resumeData, setResumeData] = useState(getResumeDataInitialized())
-    getResumeData().then((data) => {
-      setResumeData(data);
-    })
-  
+   
+ 
     /* <GrLinkedin  style={{ height: "1.5rem", width: "1.5rem" }} /> */
  
   
     return (
       <motion.div id="resumeMain" className="background hide"  animate={{ opacity: isVisible ? 1 : 0 }}>
         <Container >
-          <Row className="mt-4">
+            <Row className="mt-4">
             <Col >
               <h4>{resumeData.name}</h4>
             </Col>
@@ -56,7 +56,7 @@ export default function Resume() {
             <Col className="shadow-sm bg-white">
               <Row>
                 <Col>
-                  <Profile className="border-bottom"
+                  <Profile className="border-bottom" profile={resumeData.profile}
                   ></Profile>
                 </Col>
               </Row>
