@@ -1,15 +1,5 @@
 import './App.scss';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Icon from './components/icon/Icon'
-import Profile from './components/profile/profile';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
-import { getResumeData, getResumeDataInitialized } from './services/data.service';
-import React, { useState } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,

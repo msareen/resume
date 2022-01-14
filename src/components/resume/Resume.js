@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Icon from '../icon/Icon'
 import Profile from '../profile/profile';
-import About from '../about/About';
+import AboutMe from '../about-me/AboutMe';
 import Skills from '../skills/Skills';
 import Experience from '../experience/Experience';
 import Contact from '../contact/Contact';
@@ -62,12 +62,12 @@ export default function Resume() {
               </Row>
               <Row className="mt-5">
                 <Col>
-                  <About className="border-bottom" ></About>
+                  <AboutMe className="border-bottom" aboutMedata={resumeData.aboutMe} ></AboutMe>
                 </Col>
               </Row>
               <Row className="mt-4">
                 <Col>
-                  <Skills className="border-bottom" ></Skills>
+                  <Skills className="border-bottom" skills={resumeData.professionalSkills} ></Skills>
                 </Col>
               </Row>
               <Row className="mt-4">

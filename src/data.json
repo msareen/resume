@@ -14,7 +14,7 @@
         "skillTags": ["angular","react","javascript","html","nodejs"]
     },
     "aboutMe": {
-        "detailDescription": "Who am I"
+        "detailDescription": "I have 13.5 years of industry experiance."
     },
     "professionalSkills" : [
         {
@@ -41,20 +41,73 @@
     "experience": [
         {
             "type": "Work",
-            "heading": "Software Architect",
-            "description": "",
-            "tags": ["angular","node","graphql"],
-            "date": "2018-Present"
+            "heading": "Senior Software Architect",
+            "Organization": "Ericsson India",
+            "description": "Working in system management team to drive the product requirements",
+            "tags": ["angular","node","graphql","react", "requirement Mapping"],
+            "date": "2022-Present"
         },
         {
             "type": "Work",
             "heading": "Software Architect",
+            "Organization": "Ericsson India",
+            "description": "Leading front endteam",
+            "tags": ["angular","node","reactnative","graphql","express"],
+            "date": "2018-2021"
+        },
+        {
+            "type": "Work",
+            "heading": "Senior Software Engineer",
+            "Organization": "RBS",
             "description": "",
             "tags": ["angular","node"]
         },
         {
             "type": "Work",
-            "heading": "Software Architect",
+            "heading": "Software Engineer",
+            "Organization": "RBS",
+            "description": "",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "Work",
+            "heading": "Software Engineer",
+            "Organization": "IVP",
+            "description": "",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "Work",
+            "heading": "Associate Software Engineer",
+            "Organization": "IVP",
+            "description": "",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "Work",
+            "heading": "Software Intern",
+            "Organization": "IVP",
+            "description": "",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "School",
+            "heading": "Batchler Of Engineering",
+            "Organization": "Kota Technical University",
+            "description": "Electronic Instrumentation & Control Engineering",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "School",
+            "heading": "Senior Secondary",
+            "Organization": "Gyan Vihar Jaipur",
+            "description": "Science",
+            "tags": ["angular","node"]
+        },
+        {
+            "type": "School",
+            "heading": "Higher Secondary",
+            "Organization": "K.V Number 1, Jaipur",
             "description": "",
             "tags": ["angular","node"]
         }

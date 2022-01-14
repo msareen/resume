@@ -26,7 +26,7 @@ export default class Experience extends React.Component {
                                 contentArrowStyle={{ borderRight: '7px solid  #2196F3' }}
                                 date="2011 - present"
                                 iconStyle={{ background: '#2196F3', color: '#d2d2d2' }}
-                                icon={<MdWork/>}
+                                icon={<MdWork />}
                             >
                                 <h3 className="vertical-timeline-element-title">Creative Director</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
@@ -38,7 +38,7 @@ export default class Experience extends React.Component {
                                 className="vertical-timeline-element--work"
                                 date="2010 - 2011"
                                 iconStyle={{ background: '#2196F3', color: '#fff' }}
-                                icon={<MdWork/>}
+                                icon={<MdWork />}
                             >
                                 <h3 className="vertical-timeline-element-title">Art Director</h3>
                                 <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
