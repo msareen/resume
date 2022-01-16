@@ -1,3 +1,4 @@
+import './Resume.scss';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -6,7 +7,8 @@ import Profile from '../profile/profile';
 import AboutMe from '../about-me/AboutMe';
 import Skills from '../skills/Skills';
 import Experience from '../experience/Experience';
-import Contact from '../contact/Contact';
+import ContactForm from '../contact-form/ContactForm';
+import Details from '../details/Details';
 import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
 import React, { useEffect, useState } from 'react';
 import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
@@ -71,13 +73,16 @@ export default function Resume() {
                 </Col>
               </Row>
               <Row className="mt-4">
-                <Col>
-                  <Experience ></Experience>
+                <Col className='background-exp'>
+                  <Experience experianceData={resumeData.experiance} ></Experience>
                 </Col>
               </Row>
               <Row className="mt-4 mb-4">
                 <Col>
-                  <Contact></Contact>
+                  <ContactForm email={resumeData.email}></ContactForm>
+                </Col>
+                <Col>
+                  <Details details={ { ...resumeData.otherDetails, ...resumeData.contactDetails} } ></Details>
                 </Col>
               </Row>
             </Col>

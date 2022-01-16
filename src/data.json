@@ -38,11 +38,11 @@
             "proficiency": 50
         }
     ],
-    "experience": [
+    "experiance": [
         {
             "type": "Work",
-            "heading": "Senior Software Architect",
-            "Organization": "Ericsson India",
+            "heading": "System Manager",
+            "organization": "Ericsson, Gurgaon",
             "description": "Working in system management team to drive the product requirements",
             "tags": ["angular","node","graphql","react", "requirement Mapping"],
             "date": "2022-Present"
@@ -50,71 +50,75 @@
         {
             "type": "Work",
             "heading": "Software Architect",
-            "Organization": "Ericsson India",
-            "description": "Leading front endteam",
+            "organization": "Ericsson, Gurgaon",
+            "description": "Leading front-end team",
             "tags": ["angular","node","reactnative","graphql","express"],
             "date": "2018-2021"
         },
         {
             "type": "Work",
             "heading": "Senior Software Engineer",
-            "Organization": "RBS",
-            "description": "",
+            "organization": "RBS",
+            "description": "Bla bla blue",
             "tags": ["angular","node"]
         },
         {
             "type": "Work",
             "heading": "Software Engineer",
-            "Organization": "RBS",
-            "description": "",
+            "organization": "RBS",
+            "description": "Blue blue",
             "tags": ["angular","node"]
         },
         {
             "type": "Work",
             "heading": "Software Engineer",
-            "Organization": "IVP",
-            "description": "",
+            "organization": "IVP",
+            "description": "ott ",
             "tags": ["angular","node"]
         },
         {
             "type": "Work",
             "heading": "Associate Software Engineer",
-            "Organization": "IVP",
+            "organization": "IVP",
             "description": "",
             "tags": ["angular","node"]
         },
         {
             "type": "Work",
             "heading": "Software Intern",
-            "Organization": "IVP",
+            "organization": "IVP",
             "description": "",
             "tags": ["angular","node"]
         },
         {
             "type": "School",
             "heading": "Batchler Of Engineering",
-            "Organization": "Kota Technical University",
+            "organization": "Kota Technical University",
             "description": "Electronic Instrumentation & Control Engineering",
             "tags": ["angular","node"]
         },
         {
             "type": "School",
             "heading": "Senior Secondary",
-            "Organization": "Gyan Vihar Jaipur",
+            "organization": "Gyan Vihar Jaipur",
             "description": "Science",
             "tags": ["angular","node"]
         },
         {
             "type": "School",
             "heading": "Higher Secondary",
-            "Organization": "K.V Number 1, Jaipur",
+            "organization": "K.V Number 1, Jaipur",
             "description": "",
             "tags": ["angular","node"]
         }
     ],
     "contactDetails": {
         "email": "manasvi.sareen@outlook.com",
-        "mobile": "+91 9873579078",
-        "Location": "Banglore"
+        "phone": "8297634565"
+    },
+    "otherDetails": {
+        "preferedLocation": "Banglore",
+        "languages": "Hindi, English"
     }
+    
 }
