@@ -4,15 +4,38 @@ import Col from 'react-bootstrap/Col'
 
 export default function AboutMe(props) {
     return (
-        <Row className={props.className} >
-            <Col >
-                <h3>
-                    About Me
-                </h3>
-                <p>
-                    {props.aboutMedata.detailDescription}
-                </p>
-            </Col>
-        </Row>
+        <div className={props.className}>
+            <Row >
+                <Col >
+                    <h3>
+                        About Me
+                    </h3>
+                    <p>
+                        {props.aboutMedata.detailDescription}
+                    </p>
+                </Col>
+            </Row>
+            {
+                (() => {
+                    if (props.aboutMedata && props.aboutMedata.summaryPoints) {
+                        return <Row >
+                            <Col >
+                                <ul>
+                                    {
+                                        ((summaryPoints) => {
+                                                let pointListElements = summaryPoints.map(
+                                                    point => <li>{point}</li>
+                                                )
+                                                return pointListElements;
+                                        })(props.aboutMedata.summaryPoints)
+                                    }
+                                </ul>
+                            </Col>
+                        </Row>
+                    }
+                })()
+            }
+        </div>
+
     );
 }

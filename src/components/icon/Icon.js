@@ -8,7 +8,9 @@ export default function Icon(props) {
             (() => {
                 switch(props.type.toUpperCase()) {
                         case "LINKEDIN" : 
-                            return(<GrLinkedin className="icon-size"></GrLinkedin>)
+                            return(
+                                <GrLinkedin className="icon-size"></GrLinkedin>
+                            )
                     }
             })()
         }

@@ -1,6 +1,6 @@
 {
     "name": "Manasvi Sareen",
-    "profileTitle": "Software Architect",
+    "profileTitle": "System Manager",
     "socialNetworks" : [
         {
             "type": "linkedIn",
@@ -10,11 +10,19 @@
     "profile": {
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
-        "description": "Software Architect",
-        "skillTags": ["angular","react","javascript","html","nodejs"]
+        "description": "System Manager",
+        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5","Javascript & HTML5", "Quality analysis & Control", "Coding & Unit Testing"]
     },
     "aboutMe": {
-        "detailDescription": "I have 13.5 years of industry experiance."
+        "detailDescription": "A competent professional with 13.5 years of experience with expertise in Web Platform Development and nodejs middleware services.",
+        "summaryPoints": [
+            "Proficiency in full stack Web and with nodejs development, HTML5, Javascript, Bootstrap, Angular 10+, JQuery, design patterns, Jasmine Unit testing, nodejs, electron, Docker, graphql, rest API, web security, dotnet web api, react",
+            "Proficiency in mapping business requirements, technical documentation, design, development and troubleshooting for Website Development",
+            "Experience in end-to-end development of web applications from requirement analysis to system study, designing, testing and implementation",
+            "Developed full site integration with application by following, Requirement Analysis, Layout Designing- Template Development component, Integration with application",
+            "Skilled at Git, Batch Scripts, IIS Web Server, SQL Server Management, kubernetes",
+            "Team-based management coupled with the zeal to drive visions into reality"
+        ]
     },
     "professionalSkills" : [
         {
