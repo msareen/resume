@@ -44,7 +44,7 @@ export default function Resume() {
                   (() => {
                     if (resumeData) {
                       let map = resumeData.socialNetworks.map((network) =>
-                        <Icon type={network.type} link={network.link} ></Icon>
+                        <Icon type={network.type} link={network.url} ></Icon>
                       )
                       return map
                     }

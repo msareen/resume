@@ -9,7 +9,7 @@ export default function Icon(props) {
                 switch(props.type.toUpperCase()) {
                         case "LINKEDIN" : 
                             return(
-                                <GrLinkedin className="icon-size"></GrLinkedin>
+                                <a href={props.link} target="_blank"><GrLinkedin className="icon-size"></GrLinkedin></a>
                             )
                     }
             })()
