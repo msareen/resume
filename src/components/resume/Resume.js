@@ -11,7 +11,7 @@ import ContactForm from '../contact-form/ContactForm';
 import Details from '../details/Details';
 import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
 import React, { useEffect, useState } from 'react';
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion/dist/framer-motion'
 
 export default function Resume() {
     const [isVisible, setIsVisible] = useState(false);  

@@ -3,7 +3,6 @@ import './profile.scss';
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Badge from 'react-bootstrap/Badge';
 import Figure from 'react-bootstrap/Figure';
 import profilePicture from '../../assets/profile-pic.jpg';
 
@@ -38,12 +37,12 @@ export default function Profile(props) {
                         <div>
                             {
                                 ((profile) => {
-                                    if(profile && profile.skillTags) {
+                                    if (profile && profile.skillTags) {
                                         let skillMap = profile.skillTags.map((skillTag) => {
                                             return (
-                                            <span>
-                                                <span className='badge rounded-pill bg-success mr-1'>{skillTag}</span>{' '}
-                                            </span>)
+                                                <span>
+                                                    <span className='badge rounded-pill bg-success mr-1'>{skillTag}</span>{' '}
+                                                </span>)
                                         })
                                         return skillMap;
                                     }

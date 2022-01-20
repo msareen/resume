@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from "react-router-dom";
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion/dist/framer-motion'
 import React, { useEffect, useState } from 'react';
-import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
+import { getResumeData } from '../../services/data.service';
 
 export default function Welcome() {
     const [isVisible, setIsVisible] = useState(true);

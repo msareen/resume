@@ -9,17 +9,16 @@ import '../../main.scss';
 
 
 export default function Experience(props) {
-    const elementStyles = {
-        work: {
-            contentStyle: { background: '#2196F3', color: '#fff' },
-            contentArrowStyle: { borderRight: '7px solid  #2196F3' },
-            contentArrowStyle: { borderRight: '7px solid  #2196F3' },
-            iconStyle: { background: '#2196F3', color: '#d2d2d2' }
-        },
-        education: {
-            iconStyle: { background: '#e91e63', color: '#fff' }
-        }
-    }
+    // const elementStyles = {
+    //     work: {
+    //         contentStyle: { background: '#2196F3', color: '#fff' },
+    //         contentArrowStyle: { borderRight: '7px solid  #2196F3' },
+    //         iconStyle: { background: '#2196F3', color: '#d2d2d2' }
+    //     },
+    //     education: {
+    //         iconStyle: { background: '#e91e63', color: '#fff' }
+    //     }
+    // }
     return (
         <div >
             <Row>
