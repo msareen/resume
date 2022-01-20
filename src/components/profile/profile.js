@@ -9,7 +9,7 @@ import profilePicture from '../../assets/profile-pic.jpg';
 
 export default function Profile(props) {
     return (
-        <Row className={props.className, "profile-background rounded-top"} >
+        <Row className="profile-background rounded-top" >
             <Col md={2}>
                 <div className="picture-position mt-5">
                     <Figure className="" >

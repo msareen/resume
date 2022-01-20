@@ -58,7 +58,7 @@ export default function Resume() {
             <Col className="shadow-sm bg-white">
               <Row>
                 <Col>
-                  <Profile className="border-bottom" profile={resumeData.profile}
+                  <Profile profile={resumeData.profile}
                   ></Profile>
                 </Col>
               </Row>
@@ -69,7 +69,7 @@ export default function Resume() {
               </Row>
               <Row className="mt-4">
                 <Col>
-                  <Skills className="border-bottom" skills={resumeData.professionalSkills} ></Skills>
+                  <Skills skills={resumeData.professionalSkills} ></Skills>
                 </Col>
               </Row>
               <Row className="mt-4">

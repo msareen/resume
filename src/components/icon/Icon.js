@@ -8,6 +8,7 @@ export default function Icon(props) {
             (() => {
                 if(props.type.toUpperCase() === 'LINKEDIN') {
                     return(
+                        // eslint-disable-next-line
                         <a href={props.link} rel="noreferrer" target="_blank"><GrLinkedin className="icon-size"></GrLinkedin></a>
                     )
                 }

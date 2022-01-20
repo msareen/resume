@@ -6,7 +6,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 export default function Skills(props) {
     return (
-        <div className={props.className, "p-2"}>
+        <div className="p-2">
             <Row >
                 <Col>
                     <h4>Professional Skills</h4>
