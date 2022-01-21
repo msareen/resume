@@ -31,7 +31,7 @@ export default function Welcome() {
         e.preventDefault();
         setIsVisible(false);
         setTimeout(() => {
-            navigate(`/resume`);    
+            navigate(`/resumePage`);    
         }, (300));
     }
     
