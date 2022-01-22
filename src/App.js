@@ -11,9 +11,9 @@ import Welcome from './components/welcome/Welcome';
 function App() {
   return(
     <Router>
-       <Routes>
-         <Route exact path='/' element={<Welcome />}></Route>
-         <Route exact path='/resumePage' element={<Resume />}></Route>
+       <Routes basename={'/resume'}>
+         <Route path='/resume' element={<Welcome />}></Route>
+         <Route exact path='resumePage' element={<Resume />}></Route>
       </Routes>
     </Router>
    
