@@ -1,11 +1,15 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Getting Started with Resume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Resume project is built in react and use a simple to use and update `data.json` file to provide the input data to build your personalized resume.
+Give it a go the data structure is simple enough to make it fit everywhere.
+
+# Demo sample 
+
+[https://msareen.github.io/resume/](https://msareen.github.io/resume/)
 
 ## Available Scripts
 
-In the project directory, you can run:
+If you want to fork and contribute to the project you can run following scripts
 
 ### `npm start`
 
@@ -15,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -28,48 +27,32 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run deploy`
 
-### `npm run eject`
+This take use of [gh-pages](https://www.npmjs.com/package/gh-pages) and help you deploy the application on the github pages where you can publish your resume.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This article help me to achive the publishing part [https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Other Developer resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can find other developer resources on react here: [https://create-react-app.dev/docs/getting-started](https://create-react-app.dev/docs/getting-started)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Pending Items in the project.
 
-## Learn More
+1. Add footer about project.
+1. Better tagging and description in timeline.
+    1. Fix data file accordingly.
+1. Fix bug in mailto form
+    1. It has some undefined fields.
+1. On mouse hover effect on profile page.
+1. Animation rendering of skill tags in project.
+1. Animation rendering of skills bars.
+1. Create Theme file, move out color variables at top level.
+1. Unit tests
+1. Auto compile test and deploy on check in.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Updating readme 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# resume
-Resume written in reactjs
->>>>>>> 1297c0d6924fdb7b9338dd624cb90d5e0fde71f8
+See [https://www.markdownguide.org/basic-syntax/#images-1](https://www.markdownguide.org/basic-syntax/#images-1)
