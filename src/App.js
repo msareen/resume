@@ -13,7 +13,7 @@ function App() {
     <Router>
        <Routes basename={'/resume'}>
          <Route path='/resume' element={<Welcome />}></Route>
-         <Route exact path='resumePage' element={<Resume />}></Route>
+         <Route exact path='/resume/main' element={<Resume />}></Route>
       </Routes>
     </Router>
    
