@@ -36,7 +36,7 @@ export default function Resume() {
         <Header className="mt-4" name={resumeData.name} socialNetworks={resumeData.socialNetworks} ></Header>
         <Row className="mt-3 border-bottom mb-5">
           {/* Resume Space here */}
-          <Col className="shadow-sm bg-white">
+          <Col className="shadow-lg bg-white">
             <Row>
               <Col>
                 <Profile profile={resumeData.profile}
