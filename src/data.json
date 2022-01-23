@@ -127,6 +127,7 @@
     "otherDetails": {
         "preferedLocation": "Banglore",
         "languages": "Hindi, English"
-    }
+    },
+    "projectDetails": "https://github.com/msareen/resume"
     
 }
