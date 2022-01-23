@@ -12,7 +12,7 @@ export default function Footer(props) {
            </div>
            <div className='d-flex justify-content-center'>
                 <h6>
-                    <a href={props.projectDetails} target="_blank">Project Details</a>
+                    <a href={props.projectDetails} rel="noreferrer" target="_blank">Project Details</a>
                 </h6>
            </div>
         </div>
