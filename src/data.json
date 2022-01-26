@@ -44,6 +44,14 @@
         {
             "skillName": "React",
             "proficiency": 50
+        },
+        {
+            "skillName": "graphql",
+            "proficiency": 60
+        },
+        {
+            "skillName": "express",
+            "proficiency": 80
         }
     ],
     "experiance": [
@@ -52,7 +60,7 @@
             "heading": "System Manager",
             "organization": "Ericsson, Gurgaon",
             "description": "Working in system management team to drive the product requirements",
-            "tags": ["angular","node","graphql","react", "requirement Mapping"],
+            "tags": ["angular 2+","node","graphql","react", "requirement Mapping"],
             "date": "2022-Present"
         },
         {
@@ -60,64 +68,71 @@
             "heading": "Software Architect",
             "organization": "Ericsson, Gurgaon",
             "description": "Leading front-end team",
-            "tags": ["angular","node","reactnative","graphql","express"],
+            "tags": ["angular 2+","node","javascript", "react","graphql","express"],
             "date": "2018-2021"
         },
         {
             "type": "Work",
             "heading": "Senior Software Engineer",
             "organization": "RBS",
-            "description": "Bla bla blue",
-            "tags": ["angular","node"]
+            "date": "2016-2018",
+            "description": "Leading a full stack development using angular js and MS technologies",
+            "tags": ["angularjs","node","dotnet","Dotnet webapi 2.0", "MS Sql", "socket", "ReST"]
         },
         {
             "type": "Work",
             "heading": "Software Engineer",
             "organization": "RBS",
-            "description": "Blue blue",
-            "tags": ["angular","node"]
+            "date": "2011-2016",
+            "description": "Working as backend service developer for frontend desk",
+            "tags": ["dotnet","windows services", "windows forms", "MS Sql"]
         },
         {
             "type": "Work",
             "heading": "Software Engineer",
             "organization": "IVP",
-            "description": "ott ",
-            "tags": ["angular","node"]
+            "date": "2010-2011",
+            "description": "Working as full stack developer on a middle office suit, Devops",
+            "tags": ["dotnet","ASP.NET","SVN","javascript","Entity Framework", "MS Sql", "Devops"]
         },
         {
             "type": "Work",
             "heading": "Associate Software Engineer",
+            "date": "2009-2010",
             "organization": "IVP",
-            "description": "",
-            "tags": ["angular","node"]
+            "description": "Working as full stack developer on a middle office suit ",
+            "tags": ["dotnet","ASP.NET","SVN", "javascript","Entity Framework", "MS Sql", "Devops"]
         },
         {
             "type": "Work",
             "heading": "Software Intern",
+            "date": "2008-2009",
             "organization": "IVP",
             "description": "",
-            "tags": ["angular","node"]
+            "tags": ["dotnet","ASP.NET","javascript","Entity Framework", "MS Sql"]
         },
         {
             "type": "School",
             "heading": "Batchler Of Engineering",
             "organization": "Kota Technical University",
-            "description": "Electronic Instrumentation & Control Engineering",
-            "tags": ["angular","node"]
+            "date": "2003-2007",
+            "description": "Electronic Instrumentation & Control Engineering. Took all optional computer subjects",
+            "tags": ["Electronics"]
         },
         {
             "type": "School",
             "heading": "Senior Secondary",
             "organization": "Gyan Vihar Jaipur",
-            "description": "Science",
-            "tags": ["angular","node"]
+            "date": "2003",
+            "description": "12th Standard in science from CBSE",
+            "tags": ["Physics","Chemistry", "Maths", "English", "Computers"]
         },
         {
             "type": "School",
+            "date": "2001",
             "heading": "Higher Secondary",
             "organization": "K.V Number 1, Jaipur",
-            "description": "",
-            "tags": ["angular","node"]
+            "description": "10th Standard from CBSE"
         }
     ],
     "contactDetails": {

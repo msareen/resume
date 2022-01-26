@@ -5,20 +5,11 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { MdWork, MdSchool, MdStars } from 'react-icons/md';
+import SkillTags from '../skill-tags/SkillTags'
 import '../../main.scss';
 
 
 export default function Experience(props) {
-    // const elementStyles = {
-    //     work: {
-    //         contentStyle: { background: '#2196F3', color: '#fff' },
-    //         contentArrowStyle: { borderRight: '7px solid  #2196F3' },
-    //         iconStyle: { background: '#2196F3', color: '#d2d2d2' }
-    //     },
-    //     education: {
-    //         iconStyle: { background: '#e91e63', color: '#fff' }
-    //     }
-    // }
     return (
         <div >
             <Row>
@@ -45,6 +36,7 @@ export default function Experience(props) {
                                             >
                                                 <h3 className="vertical-timeline-element-title">{experiance.heading}</h3>
                                                 <h4 className="vertical-timeline-element-subtitle">{experiance.organization}</h4>
+                                                <SkillTags className="bg-danger" tags={experiance?.tags}></SkillTags>
                                                 <p>
                                                     {experiance.description}
                                                 </p>
@@ -58,6 +50,7 @@ export default function Experience(props) {
                                             >
                                                 <h3 className="vertical-timeline-element-title">{experiance.heading}</h3>
                                                 <h4 className="vertical-timeline-element-subtitle">{experiance.organization}</h4>
+                                                <SkillTags className="bg-info" tags={experiance?.tags}></SkillTags>
                                                 <p>
                                                     {experiance.description}
                                                 </p>

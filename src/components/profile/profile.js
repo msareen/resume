@@ -1,18 +1,19 @@
-
 import './profile.scss';
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
+import SkillTags from '../skill-tags/SkillTags'
 import profilePicture from '../../assets/profile-pic.jpg';
+
 
 
 export default function Profile(props) {
     return (
         <Row className="profile-background rounded-top" >
             <Col md={2}>
-                <div className="picture-position mt-5">
-                    <Figure className="" >
+                <div className="picture-position mt-5 content">
+                    <Figure >
                         <Figure.Image
                             width={183}
                             height={171}
@@ -34,21 +35,7 @@ export default function Profile(props) {
                 </Row>
                 <Row >
                     <Col>
-                        <div>
-                            {
-                                ((profile) => {
-                                    if (profile && profile.skillTags) {
-                                        let skillMap = profile.skillTags.map((skillTag) => {
-                                            return (
-                                                <span>
-                                                    <span className='badge rounded-pill bg-success mr-1'>{skillTag}</span>{' '}
-                                                </span>)
-                                        })
-                                        return skillMap;
-                                    }
-                                })(props.profile)
-                            }
-                        </div>
+                        <SkillTags tags={props?.profile.skillTags}></SkillTags>
                     </Col>
                 </Row>
 
