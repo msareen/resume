@@ -59,10 +59,10 @@ export default function Resume() {
               </Col>
             </Row>
             <Row className="mt-4 mb-4">
-              <Col>
+              <Col md={6}>
                 <ContactForm email={resumeData?.contactDetails.email}></ContactForm>
               </Col>
-              <Col>
+              <Col md={6}>
                 <Details details={{ ...resumeData.otherDetails, ...resumeData.contactDetails }} ></Details>
               </Col>
             </Row>
