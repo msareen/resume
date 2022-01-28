@@ -4,9 +4,6 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AOS from 'aos';
-
-AOS.init();
 
 ReactDOM.render(
   <React.StrictMode>
