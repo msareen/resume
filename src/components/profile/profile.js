@@ -12,7 +12,7 @@ export default function Profile(props) {
     return (
         <Row className="profile-background rounded-top" >
             <Col md={2}>
-                <div className="picture-position mt-5 content">
+                <div className="picture-position">
                     <Figure >
                         <Figure.Image
                             width={183}

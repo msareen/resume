@@ -1,3 +1,5 @@
+import './SkillTags.scss'
+
 export default function SkillTags(props) {
     return(
         <div>
@@ -8,7 +10,7 @@ export default function SkillTags(props) {
                     let skillTags = tags.map((tag) => {
                         return (
                             <span>
-                                <span className={`${className} badge rounded-pill mr-1`}>{tag}</span>{' '}
+                                <span className={`${className} badge rounded-pill mr-1 skill-tag`}>{tag}</span>{' '}
                             </span>)
                     })
                     return skillTags;

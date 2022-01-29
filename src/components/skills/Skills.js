@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import { useState } from 'react';
+import { motion } from 'framer-motion/dist/framer-motion'
 
 
 export default function Skills(props) {
+    let leftSkills = [];
+    let rightSkills = [];
+
+    if(props.skills) {
+        props.skills.forEach(skill => {
+            if(skill.group === 'right') {
+                rightSkills.push(skill);
+            } else {
+                leftSkills.push(skill);
+            }
+        })
+    }
     return (
         <div className="p-2">
             <Row >
@@ -12,45 +26,48 @@ export default function Skills(props) {
                     <h4>Professional Skills</h4>
                 </Col>
             </Row>
-            {
-                ((skills) => {
-                    if (skills) {
-                        let skillGroups = [];
-                        let skillGroupObj = {}
-                        skills.forEach((skill, index) => {
-                            if (index % 2 === 0) {
-                                skillGroupObj[1] = skill;
-                            } else {
-                                skillGroupObj[2] = skill;
-                                skillGroups.push(skillGroupObj);
-                                skillGroupObj = {};
-                            }
-                            if(index === skills.length - 1) {
-                                skillGroups.push(skillGroupObj);    
-                            }
-                        })
-                        let skillbar = skillGroups.map((skillgroup) =>
-                            <Row className="gx-3">
-                                <Col className="p-2" md={6}>
-                                    <h6>{skillgroup[1].skillName}</h6>
-                                    <ProgressBar variant='success' now={(skillgroup[1].proficiency)} />
-                                </Col>
-                                {
-                                    (() => {
-                                        if (skillgroup[2]) {
-                                            return <Col className="p-2" md={6}>
-                                                <h6>{skillgroup[2].skillName}</h6>
-                                                <ProgressBar variant='success' now={(skillgroup[2].proficiency)} />
-                                            </Col>
-                                        }
-                                    })()
-                                }
-                            </Row>
-                        )
-                        return skillbar;
-                    }
-                })(props.skills)
-            }
+            <Row>
+                <Col md={6}>
+                    <SkillColumn skills={leftSkills} variant="success"></SkillColumn>
+                </Col>
+                <Col md={6}>
+                    <SkillColumn skills={rightSkills} variant="primary"></SkillColumn>
+                </Col>
+            </Row>
         </div>
+    )
+}
+
+function SkillColumn(props) {
+    if(props.skills) {
+        let skillbars = props.skills.map(skill => 
+            <Row className='mt-2'>
+                <Col>
+                    <h6>{skill.skillName}</h6>
+                    <ProgressBarAnimated variant={props?.variant} now={(skill.proficiency)} />
+                </Col>
+            </Row>    
+        )
+        return skillbars;
+    }
+}
+
+
+function ProgressBarAnimated(props) {
+    let [currentVal, updateCurrentVal] = useState(0);
+    if (currentVal < props.now)
+        setTimeout(() => {
+            updateCurrentVal(currentVal + 1);
+        }, 20)
+    const variants = {
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+    }
+    return (
+        <motion.div initial="hidden"
+            animate="visible" variants={variants} transition={{ duration: 2 }} >
+            <ProgressBar variant={props.variant} now={currentVal}>
+            </ProgressBar>
+        </motion.div>
     )
 }

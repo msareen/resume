@@ -31,6 +31,7 @@ export default function Experience(props) {
                                                 contentStyle={{ background: '#2196F3', color: '#fff' }}
                                                 contentArrowStyle={{ borderRight: '7px solid  #2196F3' }}
                                                 date={experiance.date}
+                                                dateClassName='current-work-date'
                                                 iconStyle={{ background: '#2196F3', color: '#d2d2d2' }}
                                                 icon={experiance.type === 'Work' ? <MdWork /> : <MdSchool />}
                                             >

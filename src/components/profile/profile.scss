@@ -9,10 +9,18 @@
     border: 1px solid transparent;
     padding: 5px 5px 5px 5px;
     background-color: $light;
-    margin-bottom: -2rem;
     box-shadow: $gray-100;
     z-index: 10;
+    margin-bottom: -2rem;
+    margin-top: 2.5rem;
+    transition: 0.5s;
+    &:hover {
+        box-shadow: 0 0 3px black;     
+    }
+    
 }
+
+
 
 .picture-position figure  {
     margin: 0 0 0;

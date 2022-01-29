@@ -3,7 +3,7 @@
 This Resume project is built in react and use a simple to use and update `data.json` file to provide the input data to build your personalized resume.
 Give it a go the data structure is simple enough to make it fit everywhere.
 
-# Demo sample 
+# My Resume (demo) 
 
 [https://msareen.github.io/resume/](https://msareen.github.io/resume/)
 
@@ -39,17 +39,17 @@ You can find other developer resources on react here: [https://create-react-app.
 
 ## Pending Items in the project.
 
-1. Add footer about project.
-1. Better tagging and description in timeline.
-    1. Fix data file accordingly.
-1. Fix bug in mailto form
-    1. It has some undefined fields.
-1. On mouse hover effect on profile page.
 1. Animation rendering of skill tags in project.
-1. Animation rendering of skills bars.
 1. Create Theme file, move out color variables at top level.
-1. Unit tests
-1. Auto compile test and deploy on check in.
+1. Unit tests.
+1. data.json schema verification over check in.
+1. More information on tags hovers.
+1. ~~Add footer about project~~.
+1. ~~Better tagging and description in timeline~~.
+1. ~~Fix bug in mailto form~~
+1. ~~On mouse hover effect on profile page~~.
+1. ~~Animation rendering of skills bars~~.
+1. ~~Auto compile test and deploy on check in.~~
 
 
 

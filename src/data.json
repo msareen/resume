@@ -27,31 +27,39 @@
     "professionalSkills" : [
         {
             "skillName": "Html/CSS",
-            "proficiency": 70
+            "proficiency": 70,
+            "group": "left"
         },
         {
             "skillName": "Javascript",
-            "proficiency": 90
-        },
-        {
-            "skillName": "Nodejs",
-            "proficiency": 90
+            "proficiency": 90,
+            "group": "left"
         },
         {
             "skillName": "Angular",
-            "proficiency": 80
+            "proficiency": 80,
+            "group": "left"
         },
         {
             "skillName": "React",
-            "proficiency": 50
+            "proficiency": 50,
+            "group": "left"
         },
         {
+            "skillName": "Nodejs",
+            "proficiency": 90,
+            "group": "right"
+        },
+      
+        {
             "skillName": "graphql",
-            "proficiency": 60
+            "proficiency": 60,
+            "group": "right"
         },
         {
             "skillName": "express",
-            "proficiency": 80
+            "proficiency": 80,
+            "group": "right"
         }
     ],
     "experiance": [
