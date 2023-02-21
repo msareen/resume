@@ -2,7 +2,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { useState } from 'react';
-import { motion } from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion'
 
 
 export default function Skills(props) {

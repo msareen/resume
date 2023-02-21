@@ -13,7 +13,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { getResumeData, getResumeDataInitialized } from '../../services/data.service';
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion'
 
 export default function Resume() {
   const [isVisible, setIsVisible] = useState(false);

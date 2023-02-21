@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from "react-router-dom";
-import { motion } from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react';
 import { getResumeData } from '../../services/data.service';
 
