@@ -11,7 +11,7 @@
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
         "description": "System Manager",
-        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5","Javascript & HTML5", "Quality analysis & Control", "Coding & Unit Testing"]
+        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security"]
     },
     "aboutMe": {
         "detailDescription": "A competent professional with 13.5 years of experience with expertise in Web Platform Development and nodejs middleware services.",
