@@ -1,4 +1,4 @@
-import './icon.scss';
+import './Icon.scss';
 import React from 'react';
 import { GrLinkedin } from 'react-icons/gr';
 
