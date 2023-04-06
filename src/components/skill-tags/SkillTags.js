@@ -1,4 +1,4 @@
-import './skillTags.scss'
+import './SkillTags.scss'
 
 export default function SkillTags(props) {
     return(
