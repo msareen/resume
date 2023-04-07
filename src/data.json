@@ -11,17 +11,17 @@
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
         "description": "System Manager",
-        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security"]
+        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security", "Deployment", "IAM"]
     },
     "aboutMe": {
         "detailDescription": "A competent professional with 15 years of experience with expertise in Web Platform Development and nodejs middleware services.",
         "summaryPoints": [
+            "Proficiency in mapping business requirements, technical documentation, design, development of a business solution",
             "Proficiency in full stack Web and with nodejs development, HTML5, Javascript, Bootstrap, Angular 10+, JQuery, design patterns, Jasmine Unit testing, nodejs, electron, Docker, graphql, rest API, web security, dotnet web api, react",
-            "Proficiency in mapping business requirements, technical documentation, design, development and troubleshooting for Website Development",
             "Experience in end-to-end development of web applications from requirement analysis to system study, designing, testing and implementation",
             "Developed full site integration with application by following, Requirement Analysis, Layout Designing- Template Development component, Integration with application",
-            "Skilled at Git, Batch Scripts, IIS Web Server, SQL Server Management, kubernetes",
-            "Team-based management coupled with the zeal to drive visions into reality"
+            "Skilled at Git,nginx, Batch Scripts, IIS Web Server, SQL Server Management, docker, kubernetes",
+            "Team-based management coupled with the zeal to drive visions into reality."
         ]
     },
     "professionalSkills" : [
@@ -59,6 +59,11 @@
         {
             "skillName": "express",
             "proficiency": 80,
+            "group": "right"
+        },
+        {
+            "skillName": "docker",
+            "proficiency": 70,
             "group": "right"
         }
     ],
