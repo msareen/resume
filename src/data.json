@@ -11,7 +11,7 @@
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
         "description": "System Manager",
-        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security", "Deployment", "IAM"]
+        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security", "Deployment", "IAM", "AWS", "Monorepo"]
     },
     "aboutMe": {
         "detailDescription": "A competent professional with 15 years of experience with expertise in Web Platform Development and nodejs middleware services.",
@@ -19,6 +19,8 @@
             "Proficiency in mapping business requirements, technical documentation, design, development of a business solution",
             "Proficiency in full stack Web and with nodejs development, HTML5, Javascript, Bootstrap, Angular 10+, JQuery, design patterns, Jasmine Unit testing, nodejs, electron, Docker, graphql, rest API, web security, dotnet web api, react",
             "Experience in end-to-end development of web applications from requirement analysis to system study, designing, testing and implementation",
+            "Developed micro frontend architecture for the DXP Web application, reducing cost of development and deployment",
+            "Designed and managed unit testing and end to end testing work flows for commit sanitization",
             "Developed full site integration with application by following, Requirement Analysis, Layout Designing- Template Development component, Integration with application",
             "Skilled at Git,nginx, Batch Scripts, IIS Web Server, SQL Server Management, docker, kubernetes",
             "Team-based management coupled with the zeal to drive visions into reality."
@@ -42,7 +44,7 @@
         },
         {
             "skillName": "React",
-            "proficiency": 50,
+            "proficiency": 60,
             "group": "left"
         },
         {
@@ -50,7 +52,6 @@
             "proficiency": 90,
             "group": "right"
         },
-      
         {
             "skillName": "graphql",
             "proficiency": 60,
@@ -65,6 +66,16 @@
             "skillName": "docker",
             "proficiency": 70,
             "group": "right"
+        },
+        {
+            "skillName": "AWS",
+            "proficiency": 20,
+            "group": "left"
+        },
+        {
+            "skillName": "Playright",
+            "proficiency": 90,
+            "group": "right"
         }
     ],
     "experiance": [
@@ -73,7 +84,7 @@
             "heading": "System Manager",
             "organization": "Ericsson, Gurgaon",
             "description": "Working in system management team to drive the product requirements",
-            "tags": ["angular 2+","node","graphql","react", "requirement Mapping"],
+            "tags": ["angular 12+","node","graphql","react","Micro-frontends", "requirement Mapping", "AWS"],
             "date": "2022-Present"
         },
         {
@@ -81,7 +92,7 @@
             "heading": "Software Architect",
             "organization": "Ericsson, Gurgaon",
             "description": "Leading front-end team",
-            "tags": ["angular 2+","node","javascript", "react","graphql","express"],
+            "tags": ["angular 12+","node","javascript", "react","graphql","express"],
             "date": "2018-2021"
         },
         {
@@ -153,7 +164,7 @@
         "phone": "8297634565"
     },
     "otherDetails": {
-        "preferedLocation": "Banglore",
+        "preferedLocation": "Bangalore",
         "languages": "Hindi, English"
     },
     "projectDetails": "https://github.com/msareen/resume"
