@@ -65,7 +65,7 @@
             "group": "left"
         },
         {
-            "skillName": "Web Perfomrance",
+            "skillName": "Web Performance",
             "proficiency": 80,
             "group": "left"
         },
@@ -110,23 +110,23 @@
             "type": "Work",
             "heading": "System Architect",
             "organization": "Netcracker, Bangalore",
-            "description": "Working on frameworks and SDK's to measure and improve on web app performances, High level desings and Individual contribution (mostly nodejs for SDK) where it required. Managing implementation of function platform and optimization of it adaption by projects",
-            "tags": ["Angular 15+","node","graphql","react","Micro-frontends","Webpack Module Federation", "requirement Mapping", "docker", "SDK Development", "Chrome Performance Measurement"],
+            "description": "Working on frameworks and SDK's to measure and improve on web app performances, High level designs and Individual contribution (mostly nodejs for SDK) where it required. Managing implementation of function platform and optimization of it adaption by projects",
+            "tags": ["Angular 15+","node","graphql","react","Micro-frontend","Webpack Module Federation", "requirement Mapping", "docker", "SDK Development", "Chrome Performance Measurement"],
             "date": "2023-Present"
         },
         {
             "type": "Work",
             "heading": "System Manager",
             "organization": "Ericsson, Gurgaon",
-            "description": "Working in system management team to drive the product requirements",
-            "tags": ["Angular 12+","node","graphql","react","Micro-frontends", "requirement Mapping", "AWS"],
+            "description": "Working in system management team to drive the product requirements, SDK Development and nginx based micro front end Architecture and high level designs",
+            "tags": ["Angular 12+","node","graphql","react","Micro-frontend", "requirement Mapping", "AWS", "Nginx"],
             "date": "2022-2023"
         },
         {
             "type": "Work",
             "heading": "Software Architect",
             "organization": "Ericsson, Gurgaon",
-            "description": "Leading front-end team",
+            "description": "Leading front-end team, SDK Development, Functional implementation and low level designs",
             "tags": ["Angular 12+","node","javascript", "react","graphql","express"],
             "date": "2018-2021"
         },
@@ -136,7 +136,7 @@
             "organization": "RBS",
             "date": "2016-2018",
             "description": "Leading a full stack development using angular js and MS technologies",
-            "tags": ["angularjs","node","dotnet","Dotnet webapi 2.0", "MS Sql", "socket", "ReST"]
+            "tags": ["Angular 12+","node","dotnet","Dotnet web api 2.0", "MS Sql", "socket", "ReST"]
         },
         {
             "type": "Work",
@@ -172,7 +172,7 @@
         },
         {
             "type": "School",
-            "heading": "Batchler Of Engineering",
+            "heading": "Bachelor Of Engineering",
             "organization": "Kota Technical University",
             "date": "2003-2007",
             "description": "Electronic Instrumentation & Control Engineering. Took all optional computer subjects",
@@ -199,9 +199,8 @@
         "phone": "-"
     },
     "otherDetails": {
-        "preferedLocation": "Bangalore",
+        "preferredLocation": "Bangalore",
         "languages": "Hindi, English"
     },
     "projectDetails": "https://github.com/msareen/resume"
-    
 }
