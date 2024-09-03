@@ -11,11 +11,28 @@
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
         "description": "System Manager",
-        "skillTags": ["Team Management","Full stack ","Frontend Architect","Client Requirement Analysis","JavaScript & HTML5", "Quality analysis & Control", "Coding & Unit Testing", "Playwright", "Web Security", "Deployment", "IAM", "AWS", "Monorepo"]
+        "skillTags": [
+            "Frontend Architect",
+            "Full Stack",
+            "JavaScript & HTML5",
+            "Web Performance",
+            "Web Security",
+            "SDK Development",
+            "Playwright/Puppeteer",
+            "Deployment",
+            "IAM",
+            "AWS",
+            "Monorepo",
+            "Coding & Unit Testing",
+            "Quality Analysis & Control",
+            "Team Management",
+            "Client Requirement Analysis"
+          ]
     },
     "aboutMe": {
-        "detailDescription": "A competent professional with 15 years of experience with expertise in Web Platform Development and nodejs middleware services.",
+        "detailDescription": "A competent professional with 16 years of experience with expertise in Web Platform Development and nodejs middleware services.",
         "summaryPoints": [
+            "Building SDK for nodejs and web frameworks, development optimization", 
             "Proficiency in mapping business requirements, technical documentation, design, development of a business solution",
             "Proficiency in full stack Web and with nodejs development, HTML5, Javascript, Bootstrap, Angular 10+, JQuery, design patterns, Jasmine Unit testing, nodejs, electron, Docker, graphql, rest API, web security, dotnet web api, react",
             "Experience in end-to-end development of web applications from requirement analysis to system study, designing, testing and implementation",
@@ -33,7 +50,7 @@
             "group": "left"
         },
         {
-            "skillName": "Javascript",
+            "skillName": "Javascript/Typescript",
             "proficiency": 90,
             "group": "left"
         },
@@ -46,6 +63,16 @@
             "skillName": "React",
             "proficiency": 60,
             "group": "left"
+        },
+        {
+            "skillName": "Web Perfomrance",
+            "proficiency": 80,
+            "group": "left"
+        },
+        {
+            "skillName": "Webpack",
+            "proficiency": 70,
+            "group": "right"
         },
         {
             "skillName": "Nodejs",
@@ -81,18 +108,26 @@
     "experiance": [
         {
             "type": "Work",
+            "heading": "System Architect",
+            "organization": "Netcracker, Bangalore",
+            "description": "Working on frameworks and SDK's to measure and improve on web app performances, High level desings and Individual contribution (mostly nodejs for SDK) where it required. Managing implementation of function platform and optimization of it adaption by projects",
+            "tags": ["Angular 15+","node","graphql","react","Micro-frontends","Webpack Module Federation", "requirement Mapping", "docker", "SDK Development", "Chrome Performance Measurement"],
+            "date": "2023-Present"
+        },
+        {
+            "type": "Work",
             "heading": "System Manager",
             "organization": "Ericsson, Gurgaon",
             "description": "Working in system management team to drive the product requirements",
-            "tags": ["angular 12+","node","graphql","react","Micro-frontends", "requirement Mapping", "AWS"],
-            "date": "2022-Present"
+            "tags": ["Angular 12+","node","graphql","react","Micro-frontends", "requirement Mapping", "AWS"],
+            "date": "2022-2023"
         },
         {
             "type": "Work",
             "heading": "Software Architect",
             "organization": "Ericsson, Gurgaon",
             "description": "Leading front-end team",
-            "tags": ["angular 12+","node","javascript", "react","graphql","express"],
+            "tags": ["Angular 12+","node","javascript", "react","graphql","express"],
             "date": "2018-2021"
         },
         {
@@ -161,7 +196,7 @@
     ],
     "contactDetails": {
         "email": "manasvi.sareen@outlook.com",
-        "phone": "8297634565"
+        "phone": "-"
     },
     "otherDetails": {
         "preferedLocation": "Bangalore",
