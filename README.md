@@ -51,7 +51,10 @@ You can find other developer resources on react here: [https://create-react-app.
 1. ~~Animation rendering of skills bars~~.
 1. ~~Auto compile test and deploy on check in.~~
 
+## Bugs
 
+1. In hosted demo app if you directly land on page /resume/main or or try to refresh it crash, it is a limitation of github hosting which does not have rule for the embedded path
+    - **Note:** This is a hosting bug, not the application. 
 
 ### Updating readme 
 
