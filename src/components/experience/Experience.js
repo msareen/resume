@@ -21,54 +21,54 @@ export default function Experience(props) {
                 <Col>
                     <VerticalTimeline>
                         {
-                            ((experianceData) => {
-                                if (experianceData) {
-                                    console.log(experianceData);
-                                    let experianceTimeLineElements = experianceData.map((experiance, index) => {
+                            ((experienceData) => {
+                                if (experienceData) {
+                                    console.log(experienceData);
+                                    let experienceTimeLineElements = experienceData.map((experience, index) => {
                                         if (index === 0) {
                                             return (<VerticalTimelineElement
-                                                className={`vertical-timeline-element--${experiance.type.toLowerCase()}`}
+                                                className={`vertical-timeline-element--${experience.type.toLowerCase()}`}
                                                 contentStyle={{ background: '#2196F3', color: '#fff' }}
                                                 contentArrowStyle={{ borderRight: '7px solid  #2196F3' }}
-                                                date={experiance.date}
+                                                date={experience.date}
                                                 dateClassName='current-work-date'
                                                 iconStyle={{ background: '#2196F3', color: '#d2d2d2' }}
-                                                icon={experiance.type === 'Work' ? <MdWork /> : <MdSchool />}
+                                                icon={experience.type === 'Work' ? <MdWork /> : <MdSchool />}
                                             >
-                                                <h3 className="vertical-timeline-element-title">{experiance.heading}</h3>
-                                                <h4 className="vertical-timeline-element-subtitle">{experiance.organization}</h4>
-                                                <SkillTags className="bg-danger" tags={experiance?.tags}></SkillTags>
+                                                <h3 className="vertical-timeline-element-title">{experience.heading}</h3>
+                                                <h4 className="vertical-timeline-element-subtitle">{experience.organization}</h4>
+                                                <SkillTags className="bg-danger" tags={experience?.tags}></SkillTags>
                                                 <p>
-                                                    {experiance.description}
+                                                    {experience.description}
                                                 </p>
                                             </VerticalTimelineElement>)
                                         } else {
                                             return (<VerticalTimelineElement
-                                                className={`vertical-timeline-element--${experiance.type.toLowerCase()}`}
-                                                date={experiance.date}
+                                                className={`vertical-timeline-element--${experience.type.toLowerCase()}`}
+                                                date={experience.date}
                                                 iconStyle={{ background: '#2196F3', color: '#fff' }}
-                                                icon={experiance.type === 'Work' ? <MdWork /> : <MdSchool />}
+                                                icon={experience.type === 'Work' ? <MdWork /> : <MdSchool />}
                                             >
-                                                <h3 className="vertical-timeline-element-title">{experiance.heading}</h3>
-                                                <h4 className="vertical-timeline-element-subtitle">{experiance.organization}</h4>
-                                                <SkillTags className="bg-info" tags={experiance?.tags}></SkillTags>
+                                                <h3 className="vertical-timeline-element-title">{experience.heading}</h3>
+                                                <h4 className="vertical-timeline-element-subtitle">{experience.organization}</h4>
+                                                <SkillTags className="bg-info" tags={experience?.tags}></SkillTags>
                                                 <p>
-                                                    {experiance.description}
+                                                    {experience.description}
                                                 </p>
                                             </VerticalTimelineElement>)
                                         }
 
                                     })
-                                    experianceTimeLineElements.push(
+                                    experienceTimeLineElements.push(
                                         <VerticalTimelineElement
                                             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                                             icon={<MdStars />}
                                         />
                                     )
-                                    return experianceTimeLineElements;
+                                    return experienceTimeLineElements;
                                 }
 
-                            })(props.experianceData)
+                            })(props.experienceData)
                         }
                     </VerticalTimeline>
                 </Col>

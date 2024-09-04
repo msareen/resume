@@ -55,7 +55,7 @@ export default function Resume() {
             </Row>
             <Row className="mt-4">
               <Col className='background-exp'>
-                <Experience experianceData={resumeData.experiance} ></Experience>
+                <Experience experienceData={resumeData.experience} ></Experience>
               </Col>
             </Row>
             <Row className="mt-4 mb-4">

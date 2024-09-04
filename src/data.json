@@ -10,7 +10,7 @@
     "profile": {
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
-        "description": "System Manager",
+        "description": "System Architect",
         "skillTags": [
             "Frontend Architect",
             "Full Stack",
@@ -105,7 +105,7 @@
             "group": "right"
         }
     ],
-    "experiance": [
+    "experience": [
         {
             "type": "Work",
             "heading": "System Architect",
