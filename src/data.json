@@ -1,6 +1,6 @@
 {
     "name": "Manasvi Sareen",
-    "profileTitle": "System Architect",
+    "profileTitle": "System Architect | RAG | FullStack",
     "socialNetworks" : [
         {
             "type": "linkedIn",
@@ -10,8 +10,12 @@
     "profile": {
         "pictureUrl": "../../assets/profile-pic.jpg",
         "name": "Manasvi Sareen",
-        "description": "System Architect",
+        "description": "A seasoned software architect with 17+ years of experience in full-stack development and system architecture, currently focused on Retrieval-Augmented Generation (RAG) systems and AI integration. Expertise spans modern JavaScript ecosystems, LLM frameworks, embeddings, prompt engineering, and performance tuning of distributed UI systems. Proven leadership in both enterprise systems and experimental AI projects, delivering scalable, performant, and secure applications.",
         "skillTags": [
+            "Full Stack Developer",
+            "System Designer",
+            "RAG Architect",
+            "AI Integration Specialist",
             "Frontend Architect",
             "Full Stack",
             "JavaScript & HTML5",
@@ -27,176 +31,77 @@
             "Quality Analysis & Control",
             "Team Management",
             "Client Requirement Analysis"
-          ]
-    },
-    "aboutMe": {
-        "detailDescription": "A competent professional with 16 years of experience with expertise in Web Platform Development and nodejs middleware services.",
-        "summaryPoints": [
-            "Building SDK for nodejs and web frameworks, development optimization", 
-            "Proficiency in mapping business requirements, technical documentation, design, development of a business solution",
-            "Proficiency in full stack Web and with nodejs development, HTML5, Javascript, Bootstrap, Angular 10+, JQuery, design patterns, Jasmine Unit testing, nodejs, electron, Docker, graphql, rest API, web security, dotnet web api, react",
-            "Experience in end-to-end development of web applications from requirement analysis to system study, designing, testing and implementation",
-            "Developed micro frontend architecture for the DXP Web application, reducing cost of development and deployment",
-            "Designed and managed unit testing and end to end testing work flows for commit sanitization",
-            "Developed full site integration with application by following, Requirement Analysis, Layout Designing- Template Development component, Integration with application",
-            "Skilled at Git,nginx, Batch Scripts, IIS Web Server, SQL Server Management, docker, kubernetes",
-            "Team-based management coupled with the zeal to drive visions into reality."
         ]
     },
-    "professionalSkills" : [
-        {
-            "skillName": "Html/CSS",
-            "proficiency": 70,
-            "group": "left"
-        },
-        {
-            "skillName": "Javascript/Typescript",
-            "proficiency": 90,
-            "group": "left"
-        },
-        {
-            "skillName": "Angular",
-            "proficiency": 80,
-            "group": "left"
-        },
-        {
-            "skillName": "React",
-            "proficiency": 60,
-            "group": "left"
-        },
-        {
-            "skillName": "Web Performance",
-            "proficiency": 80,
-            "group": "left"
-        },
-        {
-            "skillName": "Webpack",
-            "proficiency": 70,
-            "group": "right"
-        },
-        {
-            "skillName": "Nodejs",
-            "proficiency": 90,
-            "group": "right"
-        },
-        {
-            "skillName": "graphql",
-            "proficiency": 60,
-            "group": "right"
-        },
-        {
-            "skillName": "express",
-            "proficiency": 80,
-            "group": "right"
-        },
-        {
-            "skillName": "docker",
-            "proficiency": 70,
-            "group": "right"
-        },
-        {
-            "skillName": "AWS",
-            "proficiency": 20,
-            "group": "left"
-        },
-        {
-            "skillName": "Playright",
-            "proficiency": 90,
-            "group": "right"
-        }
-    ],
+    "aboutMe": {
+        "detailDescription": "A seasoned software architect with 17+ years of experience in full-stack development and system architecture, currently focused on Retrieval-Augmented Generation (RAG) systems and AI integration.",
+        "summaryPoints": [
+            "Architected and led frontend design for enterprise platforms, focusing on modularization and performance.",
+            "Proficiency in mapping business requirements, technical documentation, design, development of a business solution",
+            "Developed micro frontend architecture for the DXP Web application, reducing cost of development and deployment.",
+            "Proficiency in full stack Web and with nodejs development",
+            "Architected a Support Bot platform using RAG systems for real-time documentation, Video Tutorials and knowledge base.",
+            "Built experimental pipeline for embedding generation and chunking strategies.",
+            "Proficient with local RAG setup and embedding orchestration."
+        ]
+    },
+    "professionalSkills": {
+        "left": [
+            { "skillName": "Html/CSS", "proficiency": 70 },
+            { "skillName": "Javascript/Typescript", "proficiency": 90 },
+            { "skillName": "Angular", "proficiency": 80 },
+            { "skillName": "React", "proficiency": 60 },
+            { "skillName": "Web Performance", "proficiency": 80 },
+            { "skillName": "express", "proficiency": 80 },
+            { "skillName": "FastAPI", "proficiency": 70 }
+        ],
+        "right": [
+            { "skillName": "Webpack", "proficiency": 70 },
+            { "skillName": "Nodejs", "proficiency": 90 },
+            { "skillName": "graphql", "proficiency": 60 },
+            { "skillName": "docker", "proficiency": 70 },
+            { "skillName": "AWS", "proficiency": 20 },
+            { "skillName": "Playright", "proficiency": 90 },
+            { "skillName": "RAG", "proficiency": 85 }
+        ]
+    },
     "experience": [
         {
             "type": "Work",
-            "heading": "System Architect",
-            "organization": "Netcracker, Bangalore",
-            "description": "Working on frameworks and SDK's to measure and improve on web app performances, High level designs and Individual contribution (mostly nodejs for SDK) where it required. Managing implementation of function platform and optimization of it adaption by projects",
-            "tags": ["Angular 15+","node","graphql","react","Micro-frontend","Webpack Module Federation", "requirement Mapping", "docker", "SDK Development", "Chrome Performance Measurement"],
-            "date": "2023-Present"
+            "heading": "Senior Architect",
+            "organization": "Netcracker India Pvt Ltd",
+            "description": "Workplace Architect, took initiative focusing on LLM Integrations, including RAG and smooth retrieval of documentation workflow. Developed performance SDKs to evaluate and improve UI latency and page metrics. Mentored multiple teams on embedding generation, prompt flow design, and modularization.",
+            "tags": ["Python", "FastAPI", "GraphLang", "ChromaDB", "LangGraph", "Angular", "Node.js", "Go", "Postgres"],
+            "date": "Aug 2023 – Present"
         },
         {
             "type": "Work",
-            "heading": "System Manager",
-            "organization": "Ericsson, Gurgaon",
-            "description": "Working in system management team to drive the product requirements, SDK Development and nginx based micro front end Architecture and high level designs",
-            "tags": ["Angular 12+","node","graphql","react","Micro-frontend", "requirement Mapping", "AWS", "Nginx"],
-            "date": "2022-2023"
+            "heading": "UI Architect",
+            "organization": "Ericsson Global India Ltd",
+            "description": "Architected and led frontend design for enterprise platforms. Initiated modularization and micro frontend rollouts. Introduced security, testing automation, and performance standards.",
+            "tags": ["Angular", "Node.js", "Micro Frontends", "Security", "Testing Automation", "Performance Standards"],
+            "date": "Jun 2018 – Aug 2023"
         },
         {
             "type": "Work",
-            "heading": "Software Architect",
-            "organization": "Ericsson, Gurgaon",
-            "description": "Leading front-end team, SDK Development, Functional implementation and low level designs",
-            "tags": ["Angular 12+","node","javascript", "react","graphql","express"],
-            "date": "2018-2021"
-        },
-        {
-            "type": "Work",
-            "heading": "Senior Software Engineer",
-            "organization": "RBS",
-            "date": "2016-2018",
-            "description": "Leading a full stack development using angular js and MS technologies",
-            "tags": ["Angular 12+","node","dotnet","Dotnet web api 2.0", "MS Sql", "socket", "ReST"]
-        },
-        {
-            "type": "Work",
-            "heading": "Software Engineer",
-            "organization": "RBS",
-            "date": "2011-2016",
-            "description": "Working as backend service developer for frontend desk",
-            "tags": ["dotnet","windows services", "windows forms", "MS Sql"]
+            "heading": "Software Designer",
+            "organization": "RBS / NatWest Markets",
+            "description": "Designed multi-system reporting platforms across currency desks. Implemented unified Angular-based UI for legacy report platforms. Delivered on key regulatory and trading desk initiatives.",
+            "tags": ["Angular", "UI Design", "Regulatory Initiatives", "Trading Desk"],
+            "date": "Jul 2011 – Jun 2018"
         },
         {
             "type": "Work",
             "heading": "Software Engineer",
             "organization": "IVP",
-            "date": "2010-2011",
-            "description": "Working as full stack developer on a middle office suit, Devops",
-            "tags": ["dotnet","ASP.NET","SVN","javascript","Entity Framework", "MS Sql", "Devops"]
-        },
-        {
-            "type": "Work",
-            "heading": "Associate Software Engineer",
-            "date": "2009-2010",
-            "organization": "IVP",
-            "description": "Working as full stack developer on a middle office suit ",
-            "tags": ["dotnet","ASP.NET","SVN", "javascript","Entity Framework", "MS Sql", "Devops"]
-        },
-        {
-            "type": "Work",
-            "heading": "Software Intern",
-            "date": "2008-2009",
-            "organization": "IVP",
-            "description": "",
-            "tags": ["dotnet","ASP.NET","javascript","Entity Framework", "MS Sql"]
-        },
-        {
-            "type": "School",
-            "heading": "Bachelor Of Engineering",
-            "organization": "Kota Technical University",
-            "date": "2003-2007",
-            "description": "Electronic Instrumentation & Control Engineering. Took all optional computer subjects",
-            "tags": ["Electronics"]
-        },
-        {
-            "type": "School",
-            "heading": "Senior Secondary",
-            "organization": "Gyan Vihar Jaipur",
-            "date": "2003",
-            "description": "12th Standard in science from CBSE",
-            "tags": ["Physics","Chemistry", "Maths", "English", "Computers"]
-        },
-        {
-            "type": "School",
-            "date": "2001",
-            "heading": "Higher Secondary",
-            "organization": "K.V Number 1, Jaipur",
-            "description": "10th Standard from CBSE"
+            "description": "Designed monitoring tools, web deployment automation, and WCF services. Deployed on AWS, led SVN-based build and release processes.",
+            "tags": ["Monitoring Tools", "Web Deployment", "WCF Services", "AWS", "SVN"],
+            "date": "Jul 2008 – Jun 2011"
         }
     ],
     "contactDetails": {
-        "email": "manasvi.sareen@outlook.com",
-        "phone": "-"
+        "email": "manasvi.sareen@live.com",
+        "phone": "+91-9873579078"
     },
     "otherDetails": {
         "preferredLocation": "Bangalore",

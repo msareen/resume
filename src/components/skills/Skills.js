@@ -6,18 +6,9 @@ import { motion } from 'framer-motion'
 
 
 export default function Skills(props) {
-    let leftSkills = [];
-    let rightSkills = [];
+    let leftSkills = props.skills?.left || [];
+    let rightSkills = props.skills?.right || [];
 
-    if(props.skills) {
-        props.skills.forEach(skill => {
-            if(skill.group === 'right') {
-                rightSkills.push(skill);
-            } else {
-                leftSkills.push(skill);
-            }
-        })
-    }
     return (
         <div className="p-2">
             <Row >
