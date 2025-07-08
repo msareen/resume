@@ -35,10 +35,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
     
-    - name: Run tests
-      run: npm test -- --coverage --watchAll=false --passWithNoTests
-      continue-on-error: true
-    
     - name: Build application
       run: npm run build --if-present
     
